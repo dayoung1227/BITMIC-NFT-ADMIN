@@ -1,0 +1,21 @@
+:root {
+
+    /*default color*/
+    --default_color:#304054;
+    /*default light*/
+    --default_light:#496180;
+    /*default dark*/
+    --default_dark:#1e2835;
+
+    /*btn gradient light*/
+    --btn_gradient_right:#a3d6dc;
+    /*btn gradient dark*/
+    --btn_gradient_dark:#03629c;
+
+    /*btn primary*/
+    --btn_primary:#f7931a;
+
+    /*login bg*/
+    --login_bg:url("/assets/images/bg.jpg");
+
+}

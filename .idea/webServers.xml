@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7d2ca88b-9200-4e6c-a98d-b5dd312ceaa1" name="LT-SH" url="http://52.78.160.168">
+        <fileTransfer host="52.78.160.168" port="22" privateKey="C:\key\aws-lkconvergence-light.pem" rootFolder="/home/ubuntu/www/dy.kingscasino.live" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

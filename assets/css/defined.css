@@ -1,0 +1,155 @@
+/* -----------------------------
+   user defined css
+--------------------------------*/
+
+#userdata .orderupdown:before, #userdata .orderupdown:after{
+    position: absolute;
+    bottom: 0.9em;
+    display: block;
+    opacity: 0.3;
+}
+
+#userdata .orderup:after{
+    right: 1em;
+    content: "\2191";
+}
+#userdata .orderdown:after{
+    right: 1em;
+    content: "\2193";
+}
+
+
+#userdata .orderup_active:before{
+    opacity: 1;
+}
+
+#userdata .orderdown_active:after{
+    opacity: 1;
+}
+
+
+.alignR {text-align: right !important;}
+.alignC {text-align: center !important;}
+.pading_default {padding: 0.375rem 0.75rem !important;}
+.w200px {width: 200px !important;}
+.pading_custom01{padding: 7px 16px !important;}
+.mgR10 {margin-right:10px !important;}
+.w100rate{width:100% !important;}
+.mgB5 {margin-bottom : 5px !important;}
+
+.cred{color:red !important}
+
+.pading_075rem{padding: 0.75rem !important;}
+
+
+
+
+@media (max-width: 576px) {
+
+    .cinput01 {
+        display: inline-block;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .clabel01 {
+        font-weight: normal;
+        text-align: left;
+    }
+
+
+    .btn-search {
+        border:0;
+        padding: 4px 6px;
+        top:6px;
+        background-color: white;
+    }
+
+/*    .responsive-sm {
+        display: none;
+    }*/
+
+    .table-short td {
+        padding: 0.35rem;
+    }
+
+    .logo {
+        height: 38px;
+    }
+
+    .index-box {
+        width: 48%;
+        padding: 0;
+        padding-left: 15px;
+    }
+
+    .mg-ri-20 {
+        margin-right: -20px !important;
+    }
+    .hs, h2 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .cinput01 {
+        display: inline-block;
+        width: auto;
+        margin-left: 0.5em;
+    }
+
+    .clabel01 {
+        white-space: nowrap;
+        font-weight: normal;
+        text-align: left;
+    }
+
+
+    .btn-search {
+        border:0;
+        top: 1px;
+        padding: 4px 8px;
+        background-color: white;
+    }
+
+    .logo {
+        height: 43px;
+    }
+
+}
+
+
+.user_info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: .5rem;
+}
+
+.search_type {
+    vertical-align: middle;
+}
+
+.search_str {
+    vertical-align: middle;
+}
+
+.navbar {
+    z-index: 9999999;
+}
+
+.color_withdrawal {
+    color: red;
+}
+
+.color_deposit {
+    color: #00CC00;
+}
+
+.pagination {
+    justify-content: center !important;
+    align-items: center !important;
+}
